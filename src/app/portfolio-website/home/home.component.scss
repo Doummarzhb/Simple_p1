@@ -1,0 +1,82 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #c1ecff;
+
+  font-family: "Lobser",sans-serif;
+  font-style:normal ;
+  font-weight: 400;
+
+}
+.thumb-container
+{
+  overflow: hidden;
+  border-radius: 20px;
+
+}
+
+.thumb-image {
+  width: 200px;
+  height: 200px;
+object-fit: cover;
+
+}
+.image-container img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.text-container {
+  flex:2;
+  padding: 0 20px;
+}
+.text-container h1 {
+  font-size: 2.5em;
+  color:#333;
+}
+.text-container p {
+  font-size: 1.2em;
+  color:#555;
+}
+
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.profile-Image {
+  width: 300px;
+  height: 300px;
+}
+.align-item-center
+{
+  justify-content: center;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-family: "Lobster",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.example-card {
+  max-width: 300px;
+  transition: transform 0.6s ease;
+}
+.example-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+button {
+  background-color: #6b08a6;
+  color: white;
+  padding: 10px 15px ;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+}
